@@ -8,7 +8,8 @@
      private Peminjaman transaksi;
 
      Anggota(String n, String a) {
-
+         this.setNama(n);
+         this.gantiAlamat(a);
      }
 
      public void setNama(String n) {
