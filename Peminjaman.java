@@ -7,16 +7,17 @@
      private Date tanggalPinjam;
      private Date tanggalKembali;
 
-     Peminjaman(Putaka p) {
-
+     Peminjaman(Pustaka p) {
+         this.setPustaka(p);
      }
 
      Peminjaman(Pustaka p, Date tp) {
-
+         this.setPustaka(p);
+         this.setTanggalPinjam(tp);
      }
 
      public void setPustaka(Pustaka p) {
-
+         this.pustaka = p;
      }
 
      public Pustaka getPustaka() {
